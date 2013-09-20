@@ -10,6 +10,8 @@
 		011C29F717E90D4F007D6C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011C29F617E90D4F007D6C8D /* Foundation.framework */; };
 		011C29FA17E90D4F007D6C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C29F917E90D4F007D6C8D /* main.m */; };
 		011C29FE17E90D4F007D6C8D /* RandomPossessions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 011C29FD17E90D4F007D6C8D /* RandomPossessions.1 */; };
+		011C2A0617E90FE2007D6C8D /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C2A0517E90FE2007D6C8D /* BNRItem.m */; };
+		011C2A0917E9538D007D6C8D /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C2A0817E9538D007D6C8D /* BNRContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		011C29F917E90D4F007D6C8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		011C29FC17E90D4F007D6C8D /* RandomPossessions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPossessions-Prefix.pch"; sourceTree = "<group>"; };
 		011C29FD17E90D4F007D6C8D /* RandomPossessions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomPossessions.1; sourceTree = "<group>"; };
+		011C2A0417E90FE2007D6C8D /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		011C2A0517E90FE2007D6C8D /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		011C2A0717E9538D007D6C8D /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRContainer.h; path = ../BNRContainer.h; sourceTree = "<group>"; };
+		011C2A0817E9538D007D6C8D /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRContainer.m; path = ../BNRContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				011C29F917E90D4F007D6C8D /* main.m */,
+				011C2A0417E90FE2007D6C8D /* BNRItem.h */,
+				011C2A0517E90FE2007D6C8D /* BNRItem.m */,
+				011C2A0717E9538D007D6C8D /* BNRContainer.h */,
+				011C2A0817E9538D007D6C8D /* BNRContainer.m */,
 				011C29FD17E90D4F007D6C8D /* RandomPossessions.1 */,
 				011C29FB17E90D4F007D6C8D /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				011C29FA17E90D4F007D6C8D /* main.m in Sources */,
+				011C2A0617E90FE2007D6C8D /* BNRItem.m in Sources */,
+				011C2A0917E9538D007D6C8D /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
